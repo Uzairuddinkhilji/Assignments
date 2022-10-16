@@ -1,0 +1,8 @@
+public class Triangle
+ {
+	public static void main(String[] args) 
+	{
+		Triangle t=new Triangle(10,5,7);
+		system.out.println("perimeter="t.perimeter());
+	}
+ }
