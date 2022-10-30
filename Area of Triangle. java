@@ -6,8 +6,8 @@ public class Triangle
 	    
 	    Triangle(int bas, int heig)
 	    {
-	    	this.base= bas;
-	    	this.height= heig;
+	    	base= bas;
+	    	height= heig;
 	    }
 	    int Area()
 	    {
