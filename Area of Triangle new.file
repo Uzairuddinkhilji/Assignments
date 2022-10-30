@@ -1,8 +1,0 @@
-
-class calculate Triangle
-{
-		     	public static void main(String[]args)
-		     	{
-		     		Triangle t=new Triangle(7,9);
-		     		system.out.println("Area="t.Area());                  }
-}
