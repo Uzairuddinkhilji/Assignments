@@ -2,17 +2,23 @@
 public class Triangle
 {
 	    int base;
-	    int height;
+	    int perpendicular;
 	    
-	    Triangle(int bas, int heig)
+	    Triangle(int bas, int perp)
 	    {
 	    	base= bas;
-	    	height= heig;
+	    	perpendicular= perp;
 	    }
 	    int Area()
 	    {
-	    	return(base*height)/2;
+	    	return(base*perpendicular)/2;
 	    }
+      
+            public static void main(String[]args)
+            {
+             Triangle t=new Triangle(7,9);
+            system.out.println("Area="t.area())
+            }
 }
 	     	
 	
