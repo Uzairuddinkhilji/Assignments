@@ -1,18 +1,23 @@
 public class Triangle
 {
-	    int side a;
-	    int side b;
-	    int side c;
+	    int base;
+	    int perpendicular;
+	    int hypotenuse;
 	    
 	    Triangle(int a, int b, int c)
 	    {
-	    	this.side a=a;
-	    	this.side b=b;
-	    	this.side c=c;
+	    	base=a;
+	    	perpendicular=b;
+	    	hypotenuse=c;
 	    }
 	    int perimeter()
 	    {
-	    	return (side a+side b+side c)
+	    	return (a + b + c)
 	    }
-}
+
 	    
+             public satic void main(String[]args)
+            {
+              Triangle t=new Traingle(12,35,20);
+              System.out.println("perimeter=" + t.perimeter());
+}
