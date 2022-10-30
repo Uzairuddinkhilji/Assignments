@@ -17,7 +17,7 @@ public class Triangle
             public static void main(String[]args)
             {
              Triangle t=new Triangle(7,9);
-            system.out.println("Area="t.area())
+            system.out.println("Area="t.area());
             }
 }
 	     	
