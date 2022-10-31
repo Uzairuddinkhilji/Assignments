@@ -1,8 +1,12 @@
-
+¹
 public class Triangle
 {
 	    int base;
 	    int perpendicular;
+            Triangle()
+            {
+             base=5;
+             perpendicular=10;
 	    
 	    Triangle(int bas, int perp)
 	    {
