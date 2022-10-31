@@ -7,6 +7,7 @@ public class Triangle
             {
              base=5;
              perpendicular=10;
+             }
 	    
 	    Triangle(int bas, int perp)
 	    {
